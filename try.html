@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Beauty Affinity</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa; /* Light background for contrast */
+        }
+
+        /* Navbar */
+        .navbar {
+            padding: 0.8rem 1rem;
+            background-color: #79baec; /* Light blue */
+        }
+        .brand-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #ffffff; /* White text for contrast */
+        }
+        .navbar-nav .nav-link {
+            color: #ffffff; /* White text for contrast */
+            font-weight: 500;
+            padding: 10px 15px;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #c4c6c6; /* Silver on hover */
+        }
+
+        /* Courses Section */
+        .course-section {
+            padding: 60px 20px;
+        }
+        .course-section h2 {
+            color: #79baec; /* Light blue */
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .course-section h3 {
+            color: #79baec; /* Light blue */
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .course-section .card {
+            margin-bottom: 20px;
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .course-section .card:hover {
+            transform: translateY(-5px); /* Add a hover effect */
+        }
+        .course-section .card-title {
+            color: #79baec; /* Light blue */
+            font-weight: bold;
+        }
+        .course-section .card-text {
+            color: #555; /* Dark gray for readability */
+        }
+
+        /* Footer */
+        footer {
+            background-color: #79baec; /* Light blue */
+            color: #fff;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            color: #c4c6c6; /* Silver on hover */
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer-social-icons a {
+            font-size: 1.5rem;
+            margin-left: 10px;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .footer-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            .footer-social-icons {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+           <!--  <span class="text-white fw-bold">+27740758477</span>-->
+            <a class="navbar-brand mx-auto brand-title" href="index.html">Beauty Affinity</a>
+            <div>
+               <!--  <a href="#" class="me-3"><i class="bi bi-cart text-white"></i></a> -->
+                <a href="#"><i class="bi bi-person text-white"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.fresha.com/p/earthly-beauty-5545212?share&pId=2497461&_gl=1*htbvwn*_gcl_au*OTk5MDE0MDIzLjE3NDE4Nzc3ODYuMTkxMjAxOTIyOS4xNzQxODc3ODA3LjE3NDE4Nzc4MDc">Salon Services</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Academy
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="courses.html#short-courses">Short Courses</a></li>
+                            <li><a class="dropdown-item" href="courses.html#3-months-courses">3 Months Courses</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="cont.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Courses Section -->
+    <section class="course-section">
+        <div class="container">
+            <h2>Our Courses</h2>
+
+            <!-- Short Courses -->
+            <div id="short-courses" class="mb-5">
+                <h3>Short Courses</h3>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Basic Skincare</h5>
+                                <p class="card-text">We provide skills you can use to make income not certificates</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Makeup Artistry</h5>
+                                <p class="card-text">Master the art of makeup for different occasions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Nail Art</h5>
+                                <p class="card-text">Explore creative nail art techniques and designs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 Months Courses -->
+            <div id="3-months-courses" class="mb-5">
+                <h3>3 Months Courses</h3>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Advanced Skincare</h5>
+                                <p class="card-text">Dive deeper into advanced skincare techniques and treatments.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Professional Makeup</h5>
+                                <p class="card-text">Become a professional makeup artist with this comprehensive course.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Spa Therapy</h5>
+                                <p class="card-text">Learn spa therapies and relaxation techniques.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- Address on the left -->
+                <div class="footer-address">
+                    <p>123 Beauty Street, Cape Town, South Africa</p>
+                </div>
+
+                <!-- Social Media Icons on the right -->
+                <div class="footer-social-icons">
+                    <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/earthlybeauty._?igsh=MWliZTBlZjcycXhqcA%3D%3D&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@earthly_beautyy?_t=ZM-8uizUy9sasp&_r=1" target="_blank"><i class="bi bi-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>&copy; 2025 Earthly Beauty. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

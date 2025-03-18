@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earthly Beauty</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+   
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa; /* Light background for contrast */
+        }
+
+        /* Navbar */
+        .navbar {
+            padding: 0.8rem 1rem;
+            background-color: #79baec; /* Light blue */
+        }
+        .brand-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #ffffff; /* White text for contrast */
+        }
+        .navbar-nav .nav-link {
+            color: #ffffff; /* White text for contrast */
+            font-weight: 500;
+            padding: 10px 15px;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #c4c6c6; /* Silver on hover */
+        }
+
+        /* Hero Section */
+        .hero-section {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+        }
+        .hero-section img {
+            max-width: 250px;
+        }
+        .hero-section h2 {
+            font-weight: bold;
+            color: #79baec; /* Light blue */
+            margin-top: 15px;
+        }
+
+        /* Call to Action Section */
+        .cta-section {
+            background-color: #c4c6c6; /* Silver */
+            padding: 50px 20px;
+            text-align: center;
+            border-radius: 12px;
+            margin-top: 40px;
+        }
+        .cta-btn {
+            background-color: #79baec; /* Light blue */
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+            width: 160px;
+            font-weight: 600;
+            transition: 0.3s ease-in-out;
+        }
+        .cta-btn:hover {
+            background-color: #5a9ecf; /* Darker blue on hover */
+        }
+
+        /* Welcome Section */
+        .welcome-section {
+            padding: 60px 0;
+        }
+        .welcome-text h2 {
+            color: #79baec; /* Light blue */
+            font-weight: bold;
+        }
+        .welcome-text p {
+            color: #555; /* Dark gray for readability */
+            line-height: 1.6;
+        }
+        .welcome-image img {
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+            width: 60%; /* Adjusted to make the image smaller */
+            height: auto;
+            display: flex;
+            margin: 0 auto; /* Center the image */
+        }
+
+        /* Contact Section */
+        .contact-container {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px;
+        }
+        .btn-custom {
+            background-color: #79baec; /* Light blue */
+            color: white;
+            font-weight: bold;
+        }
+        .btn-custom:hover {
+            background-color: #5a9ecf; /* Darker blue on hover */
+        }
+
+        /* Footer */
+        footer {
+            background-color: #79baec; /* Light blue */
+            color: #fff;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            color: #c4c6c6; /* Silver on hover */
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer-social-icons a {
+            font-size: 1.5rem;
+            margin-left: 10px;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .hero-section img {
+                max-width: 200px;
+            }
+            .cta-section {
+                padding: 30px;
+            }
+            .cta-btn {
+                width: 100%;
+            }
+            .footer-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            .footer-social-icons {
+                margin-top: 10px;
+            }
+            .welcome-image img {
+                width: 100%; /* Full width on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+           <!-- <span class="text-white fw-bold">+27740758477</span>-->
+            <a class="navbar-brand mx-auto brand-title" href="#">Earthly Beauty</a>
+            <div>
+                <!--<a href="#" class="me-3"><i class="bi bi-cart text-white"></i></a>-->
+                <a href="#"><i class="bi bi-person text-white"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.fresha.com/p/earthly-beauty-5545212?share&pId=2497461&_gl=1*htbvwn*_gcl_au*OTk5MDE0MDIzLjE3NDE4Nzc3ODYuMTkxMjAxOTIyOS4xNzQxODc3ODA3LjE3NDE4Nzc4MDc">Salon Services</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Academy
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="try.html">Short Courses</a></li>
+                            <li><a class="dropdown-item" href="try.html">3 Months Courses</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container text-center hero-section">
+        <img src="514053a1-4a17-4423-8491-bcda76b2a85d (1).jpeg" alt="Earthly Beauty Logo" style="max-width: 200px;">
+        <h2>Like the comfort of home.</h2>
+    </div>
+
+    <!-- Call to Action Section -->
+    <div class="container cta-section">
+        <p>Welcome to Earthly Beauty.</p>
+        <a href="https://www.fresha.com/a/earthly-beauty-cape-town-equinox-building-154-main-road-gk57rcmx/booking?employeeId=4537084&pId=2497461&back=%2Fp%2Fearthly-beauty-5545212" class="cta-btn">BOOK NOW</a>
+        <a href="#" class="cta-btn">CONTACT US</a>
+    </div>
+
+    <!-- Welcome Section -->
+    <section class="container welcome-section">
+        <div class="row d-flex align-items-center">
+            <!-- Image Section -->
+            <div class="col-md-6 welcome-image">
+                <h6 class="text-uppercase text-muted">Welcome To</h6>
+                <img src="rune-enstad-qeuJczNo54w-unsplash (1).jpg" alt="Earthly Beauty" class="img-fluid">
+            </div>
+           
+            <!-- Text Section -->
+            <div class="col-md-6 welcome-text">
+                <!--<h6 class="text-uppercase text-muted">Welcome To</h6>-->
+                <h2>Earthly Beauty</h2>
+                <p>
+                    At Earthly Beauty, we believe self-care should feel as natural and comforting as home and a place far from the noise.
+                    Our clean, non-toxic beauty products and services—ranging from luxurious manicures and pedicures to soothing massages—are crafted with quality and kindness, free from animal cruelty.
+                    Inspired by the fresh scent of rain and earth, our space blends modern elegance with timeless hospitality.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-container">
+        <div class="row">
+            <!-- Contact Form -->
+            <div class="col-md-6">
+                <h2>Contact Us</h2>
+                <form id="contactForm" action="https://formspree.io/f/xjkykpge" method="POST">
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input type="text" name="first_name" class="form-control" placeholder="First Name" required>
+                        </div>
+                        <div class="col">
+                            <input type="text" name="last_name" class="form-control" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea name="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-custom w-100">SEND MESSAGE</button>
+                    <p id="successMessage" class="text-success mt-3" style="display: none;">Message sent successfully!</p>
+                </form>
+            </div>
+   
+            <!-- Google Map -->
+            <div class="col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.8752488479917!2d-0.1277583!3d51.5073515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2f3e1aeb4b%3A0x35b22b1e8ee95a41!2sLondon!5e0!3m2!1sen!2suk!4v1645777742135!5m2!1sen!2suk"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- Address on the left -->
+                <div class="footer-address">
+                    <p>153 Main Road, Sea Point Equinox Building. 5th Floor</p>
+                </div>
+
+                <!-- Social Media Icons on the right -->
+                <div class="footer-social-icons">
+                    <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/earthlybeauty._?igsh=MWliZTBlZjcycXhqcA%3D%3D&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@earthly_beautyy?_t=ZM-8uizUy9sasp&_r=1" target="_blank"><i class="bi bi-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>&copy; 2025 Earthly Beauty. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent default form submission
+           
+            var form = this;
+            var formData = new FormData(form);
+   
+            fetch(form.action, {
+                method: form.method,
+                body: formData,
+                headers: { 'Accept': 'application/json' }
+            }).then(response => {
+                if (response.ok) {
+                    document.getElementById("successMessage").style.display = "block";
+                    form.reset(); // Reset the form after successful submission
+                } else {
+                    alert("Oops! Something went wrong. Please try again.");
+                }
+            }).catch(error => {
+                alert("There was a problem submitting the form. Please check your connection and try again.");
+            });
+        });
+    </script>
+</body>
+</html>
