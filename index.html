@@ -226,6 +226,25 @@
                 margin-left: auto; /* Push the nav items to the right */
             }
         }
+
+        @media (max-width: 768px) {
+    .navbar-collapse {
+        background-color: white;
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    
+    .navbar-nav .nav-link {
+        color: #333 !important; /* Dark text for better contrast on white */
+        padding: 8px 0;
+    }
+    
+    .navbar-nav .nav-link:hover {
+        color: #79baec !important; /* Brand color on hover */
+    }
+}
+
     </style>
 
     <!-- Primary Meta Tags -->
@@ -273,7 +292,7 @@
                     <li class="nav-item me-3"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item me-3"><a class="nav-link" href="https://www.fresha.com/p/earthly-beauty-5545212?share&pId=2497461&_gl=1*htbvwn*_gcl_au*OTk5MDE0MDIzLjE3NDE4Nzc3ODYuMTkxMjAxOTIyOS4xNzQxODc3ODA3" target="_blank" rel="noopener noreferrer">Services</a></li>
                     <li class="nav-item me-3"><a class="nav-link" href="try.html">Short Courses</a></li>
-                    <li class="nav-item me-3"><a class="nav-link" href="#" onclick="alert('Coming Soon!');">Gift Vouchers</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="vouchers.html">Gift Vouchers</a></li>
                 </ul>
             </div>
          </div>
@@ -305,7 +324,7 @@
     <section class="subscription-section">
         <div class="container">
             <h3>Stay up to date with our special offers, and latest news</h3>
-            <form id="subscribeForm" action="https://formspree.io/f/xjkykpge" method="POST">
+            <form id="subscribeForm"  action="https://formspree.io/f/mrbppgro" method="POST">
                 <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
                 <button type="submit" class="btn-subscribe">Subscribe</button>
             </form>
@@ -324,9 +343,10 @@
 
                 <!-- Social Media Icons on the right -->
                 <div class="footer-social-icons">
-                    <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
                     <a href="https://www.instagram.com/earthlybeauty._?igsh=MWliZTBlZjcycXhqcA%3D%3D&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
                     <a href="https://www.tiktok.com/@earthly_beautyy?_t=ZM-8uizUy9sasp&_r=1" target="_blank"><i class="bi bi-tiktok"></i></a>
+                    <a href="https://web.facebook.com/earthly.beauty.2025" target="_blank"><i class="bi bi-facebook"></i></a>
+                    
                 </div>
             </div>
             <div class="text-center mt-3">
@@ -391,7 +411,8 @@
       "telephone": "+27 67 316 8430",  // Add your phone
       "sameAs": [
         "https://www.instagram.com/earthlybeauty._",
-        "https://www.tiktok.com/@earthly_beautyy"
+        "https://www.tiktok.com/@earthly_beautyy",
+        "https://web.facebook.com/earthly.beauty.2025"
       ]
     }
     </script>
