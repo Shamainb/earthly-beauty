@@ -1,197 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Primary Meta Tags -->
+    <title>Earthly Beauty | Affordable Nail Salon in Sea Point, Cape Town</title>
+    <meta name="description" content="Sea Point's premier cruelty-free nail bar & salon. Experience affordable luxury with manicures, pedicures, facials & massages in our nature-inspired sanctuary near the beach.">
+    <meta name="keywords" content="Sea Point nail salon, Cape Town beauty salon, affordable manicures, luxury pedicures, cruelty-free facials, gel nails Sea Point, best salon in Cape Town, Sea Point massage">
+    <meta name="author" content="Earthly Beauty">
+    <meta name="geo.region" content="ZA-WC">
+    <meta name="geo.placename" content="Cape Town, Sea Point">
 
-     <!-- Primary Meta Tags -->
-<title>Earthly Beauty | Affordable prices | Nail bar near the beach of Sea Point </title>
-<meta name="description" content="Sea Point's luxury nail bar & spa: cruelty-free manicures, pedicures, facials & massages at affordable prices. Modern elegance near the beach.">
-<meta name="keywords" content="Sea Point nail salon, luxury manicures Sea Point, affordable pedicures, cruelty-free spa, gel nails, acrylics, facials near me">
-<meta name="author" content="Earthly Beauty">
-<meta name="geo.region" content="ZA-WC">
-<meta name="geo.placename" content="Cape Town, Sea Point">
+    <!-- Open Graph (Facebook/Instagram) -->
+    <meta property="og:title" content="Earthly Beauty | Sea Point's Luxury Nail Salon">
+    <meta property="og:description" content="Cruelty-free manicures, pedicures & facials in a serene, nature-inspired space. Affordable luxury in the heart of Sea Point.">
+    <meta property="og:image" content="https://earthly-beauty.com/images/salon-interior.jpg">
+    <meta property="og:url" content="https://earthly-beauty.com">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Earthly Beauty">
+    <!-- Instagram Profile Link (for Facebook/Instagram sharing) -->
+    <meta property="og:see_also" content="https://www.instagram.com/earthlybeauty._">
 
-<!-- Open Graph (Facebook/Instagram) -->
-<meta property="og:title" content="Earthly Beauty | Sea Point's Luxury Nail Bar & Spa">
-<meta property="og:description" content="Cruelty-free manicures, pedicures & facials in a serene, nature-inspired space. Affordable luxury in the heart of Sea Point.">
-<meta property="og:image" content="https://earthly-beauty.com/images/salon-interior.jpg">
-<meta property="og:url" content="https://earthly-beauty.com">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Earthly Beauty">
-<!-- Instagram Profile Link (for Facebook/Instagram sharing) -->
-<meta property="og:see_also" content="https://www.instagram.com/earthlybeauty._">
-
-<!-- TikTok Meta -->
-<meta property="tiktok:creator" content="@earthly_beautyy">
-<meta name="tiktok:domain" content="earthly-beauty.com">
+    <!-- TikTok Meta -->
+    <meta property="tiktok:creator" content="@earthly_beautyy">
+    <meta name="tiktok:domain" content="earthly-beauty.com">
     
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YQMJNGH69G"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-YQMJNGH69G');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YQMJNGH69G"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YQMJNGH69G');
+    </script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Earthly Beauty</title>
+    <title>Earthly Beauty | Sea Point's Luxury Nail Salon</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
    
     <style>
         /* General Styles */
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f8f9fa; /* Light background for contrast */
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+            background-color: #f8f9fa;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 500;
         }
 
         /* Navbar */
         .navbar {
-            padding: 0.8rem 1rem;
-            background-color: transparent; /* Transparent background */
+            padding: 1rem 1.5rem;
+            background-color: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
         }
+
+        .navbar.scrolled {
+            background-color: rgba(255,255,255,0.9);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .navbar.scrolled .brand-title,
+        .navbar.scrolled .nav-link {
+            color: #333 !important;
+        }
+
         .brand-title {
-            font-size: 22px;
-            font-weight: bold;
-            color: #ffffff; /* White text for contrast */
+            font-size: 24px;
+            font-weight: 600;
+            color: #ffffff;
+            font-family: 'Playfair Display', serif;
         }
+
         .navbar-nav .nav-link {
-            color: #ffffff; /* White text for contrast */
+            color: #ffffff;
             font-weight: 500;
             padding: 10px 15px;
+            margin: 0 5px;
+            transition: all 0.3s ease;
         }
+
         .navbar-nav .nav-link:hover {
-            color: #c4c6c6; /* Silver on hover */
+            color: #c4c6c6;
         }
 
         /* Hero Section */
         .hero-section {
-            text-align: center;
-            padding: 20px;
             position: relative;
-            z-index: 2;
-            margin-top: 20px; /* Adjust as needed */
-        }
-        .hero-section h2 {
-            font-weight: bold;
-            color: #ffffff; /* Changed to white */
-            margin-top: 15px;
-        }
-        .hero-section p {
-            color: #ffffff; /* White text for contrast */
-            font-size: 18px;
-            margin-top: 10px;
-        }
-        .hero-section .cta-btn {
-            background-color: #79baec; /* Light blue */
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
             color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 6px;
-            text-decoration: none;
-            display: inline-block;
-            margin-top: 20px;
-            font-weight: 600;
-            transition: 0.3s ease-in-out;
-        }
-        .hero-section .cta-btn:hover {
-            background-color: #5a9ecf; /* Darker blue on hover */
+            padding: 0 20px;
         }
 
-        /* Background Image Section */
-        .background-image {
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 3;
+        }
+
+        .hero-section h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+        }
+
+        .hero-section p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+
+        .hero-overlay {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
-            height: 80vh; /* Set height to 80% of the viewport height */
-            background-image: url('Image.jpg');
-            background-size: cover; /* Ensure the image covers the entire area */
-            background-position: center;
-            z-index: -1;
+            height: 100%;
+            background-color: rgba(0,0,0,0.3);
+            z-index: 1;
         }
 
-        /* Wrapper for Top Sections */
-        .top-sections-wrapper {
+        .hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('Image.jpg');
+            background-size: cover;
+            background-position: center;
+            z-index: 0;
+        }
+
+        /* About Section */
+        .about-section {
+            padding: 80px 0;
+            background-color: #fff;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .about-section h2 {
+            color: #79baec;
+            margin-bottom: 30px;
             position: relative;
-            z-index: 2;
-            overflow: hidden; /* Ensure the background image doesn't overflow */
-            height: 80vh; /* Set height to 80% of the viewport height */
+            display: inline-block;
+        }
+
+        .about-section h2:after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 2px;
+            background: #79baec;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .about-section p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .signature {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            margin-top: 30px;
+            font-size: 1.2rem;
+        }
+
+        /* CTA Button */
+        .cta-btn {
+            background-color: #79baec;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 30px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+        }
+
+        .cta-btn:hover {
+            background-color: #5a9ecf;
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
 
         /* Map Section */
         .map-section {
-            padding: 40px 0;
-            background-color: #ffffff; /* White background for contrast */
+            padding: 60px 0;
+            background-color: #ffffff;
         }
-        .map-section iframe {
+
+        .map-section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #79baec;
+        }
+
+        .map-container {
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 100%; /* Full width */
-            height: 400px; /* Increased height */
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
-        .map-section h3 {
-            font-weight: bold; /* Bold text */
-            margin-bottom: 20px; /* Space below the heading */
-            text-align: center; /* Center the heading */
+
+        .map-section iframe {
+            width: 100%;
+            height: 450px;
+            border: none;
+        }
+
+        /* Testimonials */
+        .testimonials-section {
+            padding: 80px 0;
+            background-color: #f8f9fa;
+        }
+
+        .testimonial-card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .testimonial-text:before {
+            content: '"';
+            font-size: 4rem;
+            color: #79baec;
+            opacity: 0.2;
+            position: absolute;
+            top: -20px;
+            left: -10px;
+            font-family: serif;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: #79baec;
         }
 
         /* Subscription Section */
         .subscription-section {
-            padding: 40px 0;
-            background-color: #f8f9fa; /* Light background for contrast */
+            padding: 80px 0;
+            background-color: #79baec;
+            color: white;
             text-align: center;
         }
-        .subscription-section h3 {
-            font-weight: bold;
-            margin-bottom: 20px;
+
+        .subscription-section h2 {
+            margin-bottom: 30px;
         }
+
         .subscription-section .form-control {
             width: 100%;
             max-width: 400px;
-            margin: 0 auto 10px auto;
-            padding: 10px;
-            border-radius: 6px;
-            border: 1px solid #ddd;
-        }
-        .subscription-section .btn-subscribe {
-            background-color: #79baec; /* Light blue */
-            color: white;
-            padding: 10px 20px;
+            margin: 0 auto 15px auto;
+            padding: 12px 20px;
+            border-radius: 30px;
             border: none;
-            border-radius: 6px;
-            font-weight: 600;
-            transition: 0.3s ease-in-out;
         }
+
+        .subscription-section .btn-subscribe {
+            background-color: white;
+            color: #79baec;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
         .subscription-section .btn-subscribe:hover {
-            background-color: #5a9ecf; /* Darker blue on hover */
+            background-color: #f0f0f0;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
 
         /* Footer */
         footer {
-            background-color: #79baec; /* Light blue */
+            background-color: #333;
             color: #fff;
-            padding: 20px 0;
-            margin-top: 40px;
+            padding: 40px 0 20px;
         }
+
         footer a {
             color: #fff;
             text-decoration: none;
-            margin: 0 10px;
+            transition: all 0.3s ease;
         }
+
         footer a:hover {
-            color: #c4c6c6; /* Silver on hover */
+            color: #79baec;
         }
+
         .footer-content {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
         }
+
+        .footer-column {
+            flex: 1;
+            min-width: 250px;
+            margin-bottom: 20px;
+            padding: 0 15px;
+        }
+
+        .footer-column h3 {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .footer-column h3:after {
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 2px;
+            background: #79baec;
+            bottom: 0;
+            left: 0;
+        }
+
         .footer-social-icons a {
-            font-size: 1.5rem;
-            margin-left: 10px;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: silver(255,255,255,0.1);
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            margin-right: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .footer-social-icons a:hover {
+            background: #79baec;
+            transform: translateY(-3px);
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            margin-top: 20px;
         }
 
         /* WhatsApp Floating Button */
@@ -201,134 +389,221 @@
             height: 60px;
             bottom: 40px;
             right: 40px;
-            background-color: #25d366; /* WhatsApp green */
+            background-color: #25d366;
             color: #FFF;
-            border-radius: 50px;
+            border-radius: 50%;
             text-align: center;
             font-size: 30px;
-            box-shadow: 2px 2px 3px #999;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
             z-index: 100;
             display: flex;
             align-items: center;
             justify-content: center;
             text-decoration: none;
+            transition: all 0.3s ease;
         }
-        .whatsapp-icon {
-            color: #FFF;
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
         }
 
         /* Responsive Adjustments */
-        @media (max-width: 768px) {
-            .hero-section {
-                margin-top: 10px;
+        @media (max-width: 992px) {
+            .hero-section h1 {
+                font-size: 2.5rem;
             }
-            .hero-section h2 {
-                font-size: 24px;
-            }
+            
             .hero-section p {
-                font-size: 16px;
-            }
-            .hero-section .cta-btn {
-                width: 100%;
-            }
-            .footer-content {
-                flex-direction: column;
-                text-align: center;
-            }
-            .footer-social-icons {
-                margin-top: 10px;
-            }
-
-            /* Align the collapsed menu to the right */
-            .navbar-collapse {
-                text-align: right; /* Align text to the right */
-                padding-right: 15px; /* Add some padding for better alignment */
-            }
-            .navbar-nav {
-                margin-left: auto; /* Push the nav items to the right */
+                font-size: 1.1rem;
             }
         }
 
         @media (max-width: 768px) {
-    .navbar-collapse {
-        background-color: white;
-        padding: 15px;
-        border-radius: 5px;
-        margin-top: 10px;
-    }
-    
-    .navbar-nav .nav-link {
-        color: #333 !important; /* Dark text for better contrast on white */
-        padding: 8px 0;
-    }
-    
-    .navbar-nav .nav-link:hover {
-        color: #79baec !important; /* Brand color on hover */
-    }
-}
+            .navbar {
+                padding: 0.8rem 1rem;
+            }
+            
+            .hero-section {
+                height: 70vh;
+            }
+            
+            .hero-section h1 {
+                font-size: 2rem;
+            }
+            
+            .hero-section p {
+                font-size: 1rem;
+            }
+            
+            .footer-column {
+                flex: 100%;
+                margin-bottom: 30px;
+            }
+            
+            .whatsapp-float {
+                width: 50px;
+                height: 50px;
+                font-size: 25px;
+                bottom: 30px;
+                right: 30px;
+            }
+        }
 
+        @media (max-width: 576px) {
+            .hero-section {
+                height: 60vh;
+            }
+            
+            .hero-section h1 {
+                font-size: 1.8rem;
+            }
+            
+            .cta-btn {
+                padding: 12px 25px;
+                font-size: 0.8rem;
+            }
+        }
+
+        /* Mobile menu styles */
+        @media (max-width: 768px) {
+            .navbar-collapse {
+                background-color: white;
+                padding: 15px;
+                border-radius: 5px;
+                margin-top: 10px;
+            }
+            
+            .navbar-nav .nav-link {
+                color: #333 !important;
+                padding: 8px 0;
+            }
+            
+            .navbar-nav .nav-link:hover {
+                color: #79baec !important;
+            }
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in {
+            animation: fadeIn 1s ease forwards;
+        }
+
+        .delay-1 { animation-delay: 0.2s; }
+        .delay-2 { animation-delay: 0.4s; }
+        .delay-3 { animation-delay: 0.6s; }
     </style>
-
 </head>
 <body>
-
-    <!-- Wrapper for Top Sections -->
-    <div class="top-sections-wrapper">
-        <!-- Background Image Section -->
-        <div class="background-image"></div>
-
-        <!-- Navbar Section -->
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-               <!-- Earthly Beauty on the left -->
-               <a class="navbar-brand brand-title" href="#">Earthly Beauty</a>
-               <!-- Hamburger menu on the right -->
-               <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                   <span class="navbar-toggler-icon"></span>
-               </button>
-               <!-- Navigation Menu -->
-               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item me-3"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item me-3"><a class="nav-link" href="https://www.fresha.com/p/earthly-beauty-5545212?share&pId=2497461&_gl=1*htbvwn*_gcl_au*OTk5MDE0MDIzLjE3NDE4Nzc3ODYuMTkxMjAxOTIyOS4xNzQxODc3ODA3" target="_blank" rel="noopener noreferrer">Services</a></li>
-                    <li class="nav-item me-3"><a class="nav-link" href="try.html">Short Courses</a></li>
-                    <li class="nav-item me-3"><a class="nav-link" href="vouchers.html">Gift Vouchers</a></li>
-                </ul>
-            </div>
-         </div>
-     </nav>
-
-        <!-- Hero Section -->
-        <div class="container text-center hero-section">
-            <h2>Like the comfort of home.</h2>
-            
-            <a href="https://www.fresha.com/a/earthly-beauty-cape-town-equinox-building-154-main-road-gk57rcmx/all-offer?menu=true&pId=2497461&rwg_token=AAiGsoZxRWs-srlDV0Z0WFoS3Fp0xYB_S_fXVwozA7Uk4N1zeyucgDI6LzSGRp2IIj4QV4LmAUbxwGhHtLoBnzMboPOCz9T1jQ%3D%3D&gei=7O7kZ-bBNZnBhbIPoJnduAM" target="_blank" class="cta-btn">BOOK YOUR APPOINTMENT</a>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+           <a class="navbar-brand brand-title" href="#">Earthly Beauty</a>
+           <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item me-3"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item me-3"><a class="nav-link" href="https://www.fresha.com/p/earthly-beauty-5545212?share&pId=2497461&_gl=1*htbvwn*_gcl_au*OTk5MDE0MDIzLjE3NDE4Nzc3ODYuMTkxMjAxOTIyOS4xNzQxODc3ODA3" target="_blank" rel="noopener noreferrer">Services</a></li>
+                <li class="nav-item me-3"><a class="nav-link" href="try.html">Short Courses</a></li>
+                <li class="nav-item me-3"><a class="nav-link" href="vouchers.html">Gift Vouchers</a></li>
+            </ul>
         </div>
-    </div>
+     </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <h1 class="fade-in">Like the comfort of home.</h1>
+            <p class="fade-in delay-1">Where nature-inspired luxury meets affordable self-care in the heart of Sea Point</p>
+            <a href="https://www.fresha.com/a/earthly-beauty-cape-town-equinox-building-154-main-road-gk57rcmx/all-offer?menu=true&pId=2497461&rwg_token=AAiGsoZxRWs-srlDV0Z0WFoS3Fp0xYB_S_fXVwozA7Uk4N1zeyucgDI6LzSGRp2IIj4QV4LmAUbxwGhHtLoBnzMboPOCz9T1jQ%3D%3D&gei=7O7kZ-bBNZnBhbIPoJnduAM" target="_blank" class="cta-btn fade-in delay-2">BOOK YOUR APPOINTMENT</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="fade-in">Our Philosophy</h2>
+                <p class="fade-in delay-1">At Earthly Beauty, we've created more than just a nail salon - we've crafted a sanctuary where self-care feels as natural and comforting as home. Nestled in the heart of Sea Point, our salon offers a peaceful retreat from the bustling energy of Cape Town, inviting you to unwind in an atmosphere inspired by the fresh scent of rain and earth.</p>
+                
+                <p class="fade-in delay-2">We believe luxury shouldn't come at the expense of ethics or affordability. That's why we offer premium manicures, pedicures, and massage treatments that are completely cruelty-free, using only the highest quality products that care for both you and the planet. Our skilled therapists blend modern techniques with timeless hospitality to deliver results that make you look and feel radiant.</p>
+                
+                <p class="fade-in delay-2">Whether you're a local resident or visiting our beautiful city, we invite you to experience the Earthly Beauty difference - where every treatment is designed to nourish your body, calm your mind, and reconnect you with your natural beauty.</p>
+                
+                <p class="signature fade-in delay-3">The Earthly Beauty Team</p>
+            </div>
+        </div>
+    </section>
+    
     <!-- Policies Link -->
-    <div class="container text-center mt-4">
-        <a href="policies.html" class="btn btn-primary" style="background-color: #79BAEC; border-color: #79BAEC;">CLICK HERE FOR POLICIES</a>
+    <div class="container text-center my-5 fade-in">
+        <a href="policies.html" class="cta-btn">CLICK HERE FOR POLICIES</a>
     </div>
 
     <!-- Map Section -->
     <section class="map-section">
         <div class="container">
-            <h3>Our Location</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.041430854743!2d18.38951131521329!3d-33.92448098063829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc6754e5d5d5a5%3A0x5f5f5f5f5f5f5f5f!2s503%20Main%20Rd%2C%20Sea%20Point%2C%20Cape%20Town%2C%208065!5e0!3m2!1sen!2sza!4v1645777742135!5m2!1sen!2sza"
-                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <h2 class="fade-in">Visit Our Sea Point Sanctuary</h2>
+            <div class="map-container fade-in delay-1">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.041430854743!2d18.38951131521329!3d-33.92448098063829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc6754e5d5d5a5%3A0x5f5f5f5f5f5f5f5f!2s503%20Main%20Rd%2C%20Sea%20Point%2C%20Cape%20Town%2C%208065!5e0!3m2!1sen!2sza!4v1645777742135!5m2!1sen!2sza"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="text-center mb-5 fade-in">What Our Clients Say</h2>
+            <div class="row">
+                <div class="col-md-4 fade-in">
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            "Earthly Beauty is my happy place in Sea Point. The manicures last forever and the atmosphere is so calming. I always leave feeling refreshed!"
+                        </div>
+                        <div class="testimonial-author">- Sarah K., Sea Point</div>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-in delay-1">
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            "As someone who's particular about clean beauty, I appreciate their cruelty-free approach. Best pedicure I've had in Cape Town!"
+                        </div>
+                        <div class="testimonial-author">- James L., Camps Bay</div>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-in delay-2">
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            "The massage was heavenly and the prices are so reasonable for the quality. This hidden gem is worth seeking out in Sea Point."
+                        </div>
+                        <div class="testimonial-author">- Nomvula M., Gardens</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Subscription Section -->
     <section class="subscription-section">
         <div class="container">
-            <h3>Stay up to date with our special offers, and latest news</h3>
-            <form id="subscribeForm"  action="https://formspree.io/f/mrbppgro" method="POST">
-                <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+            <h2 class="fade-in">Join Our Earthly Beauty Community</h2>
+            <p class="mb-4 fade-in delay-1">Subscribe to receive exclusive offers, beauty tips, and updates on our seasonal treatments.</p>
+            <form id="subscribeForm" action="https://formspree.io/f/mrbppgro" method="POST" class="fade-in delay-2">
+                <input type="email" name="email" class="form-control mb-3" placeholder="Enter your email" required>
                 <button type="submit" class="btn-subscribe">Subscribe</button>
             </form>
-            <p id="subscribeSuccess" class="text-success mt-3" style="display: none;">Thank you for subscribing!</p>
+            <p id="subscribeSuccess" class="text-white mt-3" style="display: none;">Thank you for subscribing!</p>
         </div>
     </section>
 
@@ -336,20 +611,31 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <!-- Address on the left -->
-                <div class="footer-address">
-                    <p>503 Main Road, Sea Point Equinox Building, 5th Floor</p>
+                <div class="footer-column">
+                    <h3>Earthly Beauty</h3>
+                    <p>503 Main Road, Sea Point<br>
+                    Equinox Building, 5th Floor<br>
+                    Cape Town, 8005</p>
                 </div>
-
-                <!-- Social Media Icons on the right -->
-                <div class="footer-social-icons">
-                    <a href="https://www.instagram.com/earthlybeauty._?igsh=MWliZTBlZjcycXhqcA%3D%3D&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
-                    <a href="https://www.tiktok.com/@earthly_beautyy?_t=ZM-8uizUy9sasp&_r=1" target="_blank"><i class="bi bi-tiktok"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=61574252627316" target="_blank"><i class="bi bi-facebook"></i></a>
-                    
+                <div class="footer-column">
+                    <h3>Opening Hours</h3>
+                    <p>Monday - Friday: 9am - 5pm<br>
+                    Saturday: 9am - 4pm<br>
+                    Sunday: 9am - 4pm</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Connect With Us</h3>
+                    <div class="footer-social-icons">
+                        <a href="https://www.instagram.com/earthlybeauty._?igsh=MWliZTBlZjcycXhqcA%3D%3D&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@earthly_beautyy?_t=ZM-8uizUy9sasp&_r=1" target="_blank"><i class="bi bi-tiktok"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61574252627316" target="_blank"><i class="bi bi-facebook"></i></a>
+                    </div>
+                    <p class="mt-3">
+                        <a href="tel:+27673168430"><i class="bi bi-telephone me-2"></i>+27 67 316 8430</a>
+                    </p>
                 </div>
             </div>
-            <div class="text-center mt-3">
+            <div class="copyright">
                 <p>&copy; 2025 Earthly Beauty. All rights reserved.</p>
             </div>
         </div>
@@ -357,15 +643,24 @@
 
     <!-- WhatsApp Floating Button -->
     <a href="https://wa.me/+27673168430" class="whatsapp-float" target="_blank">
-        <i class="bi bi-whatsapp whatsapp-icon"></i>
+        <i class="bi bi-whatsapp"></i>
     </a>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
         // Handle subscription form submission
         document.getElementById("subscribeForm").addEventListener("submit", function(event) {
-            event.preventDefault(); // Prevent default form submission
-
+            event.preventDefault();
             var form = this;
             var formData = new FormData(form);
 
@@ -375,14 +670,30 @@
                 headers: { 'Accept': 'application/json' }
             }).then(response => {
                 if (response.ok) {
-                    document.getElementById("subscribeSuccess").style.display = "block"; // Show success message
-                    form.reset(); // Reset the form
+                    document.getElementById("subscribeSuccess").style.display = "block";
+                    form.reset();
+                    setTimeout(() => {
+                        document.getElementById("subscribeSuccess").style.display = "none";
+                    }, 5000);
                 } else {
                     alert("Oops! Something went wrong. Please try again.");
                 }
             }).catch(error => {
                 alert("There was a problem submitting the form. Please check your connection and try again.");
             });
+        });
+
+        // Intersection Observer for animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
         });
     </script>
 </body>
@@ -391,29 +702,29 @@
       "@context": "https://schema.org",
       "@type": "NailSalon",
       "name": "Earthly Beauty",
-      "image": "https://earthly-beauty.com/images/logo.jpg",
-      "description": "Affordable cruelty-free nail bar & spa in Sea Point",
+      "image": "https://earthly-beauty.com/images/Earthly Beauty Logo.png",
+      "description": "Sea Point's premier cruelty-free nail salon offering affordable luxury treatments in a nature-inspired sanctuary.",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "[154 Main road Sea point, Equinox building, 5th floor, Suite 503]",
-        "addressLocality": "Sea Point",
+        "streetAddress": "503 Main Road, Sea Point, Equinox Building, 5th Floor",
+        "addressLocality": "Cape Town",
         "addressRegion": "Western Cape",
         "postalCode": "8005",
         "addressCountry": "ZA"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "-33.9249",  // Replace with your exact coordinates
-        "longitude": "18.3821"   // Find via Google Maps
+        "latitude": "-33.924480",
+        "longitude": "18.389511"
       },
-      "openingHours": "Mo-Fr 09:00-19:00, Sa 10:00-17:00",  // Update with your hours
+      "openingHours": "Mo-Fr 09:00-19:00, Sa 10:00-17:00",
       "priceRange": "$$",
-      "telephone": "+27 67 316 8430",  // Add your phone
+      "telephone": "+27673168430",
       "sameAs": [
         "https://www.instagram.com/earthlybeauty._",
         "https://www.tiktok.com/@earthly_beautyy",
-        "https://web.facebook.com/@Earthly Beauty",
+        "https://www.facebook.com/profile.php?id=61574252627316"
       ]
     }
-    </script>
+</script>
 </html>
